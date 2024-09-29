@@ -5,6 +5,7 @@ constexpr int N_ELEMENTS = 100;
 int main()
 {
     int *b = new int[NELEMENTS];
+    std::cout << '1-100 ertekek duplazasa'
     for (int i = 0;)
     {
         b[i] = i * 2;
